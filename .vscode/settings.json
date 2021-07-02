@@ -1,3 +1,7 @@
 {
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none"
+    },
 }
